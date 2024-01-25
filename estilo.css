@@ -4,5 +4,24 @@ font-size: 20px;
 
 }
 header {
-    background-color:#409973 ;
+    background-color:#38738c ;
+}
+
+header a {
+    color: aqua;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(255, 0, 0);
+}
+
+article a {
+    color: rgb(251, 255, 0);
+    text-decoration: none;
+}
+
+footer {
+    background-color: blue;
+    color: blanchedalmond;
 }
