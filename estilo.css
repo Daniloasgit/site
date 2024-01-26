@@ -5,23 +5,41 @@ font-size: 20px;
 }
 header {
     background-color:#38738c ;
+    margin: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 header a {
     color: aqua;
     text-decoration: none;
+    margin-bottom: 30px;
 }
 
 a {
     color: rgb(255, 0, 0);
 }
 
+article {
+    background-color: rgb(28, 7, 104);
+    padding-left: 20px;
+}
+
 article a {
     color: rgb(251, 255, 0);
     text-decoration: none;
+    padding: 12px;
+   
 }
 
-footer {
+.rodape {
     background-color: blue;
     color: blanchedalmond;
+    padding: 30px;
+    margin: 10px;   
+    text-align: center;
 }
+ main {
+padding: 30px;
+
+ }
