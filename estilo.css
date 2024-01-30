@@ -3,37 +3,68 @@ background-color:  #804c80;font-family:Cambria, Cochin, Georgia, Times, 'Times N
 font-size: 20px;
 
 }
-header {
-    background-color:#38738c ;
-    margin: 20px;
-    padding-left: 50px;
-    padding-top: 20px;
+.topo {
+    background-color:#4e388c ;
+    padding: 20px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-header a {
+.topo img {
+    width: 105%;
+}
+
+.topo a {
     color: aqua;
     text-decoration: none;
     margin-bottom: 30px;
+
+   
+
 }
 
 a {
     color: rgb(255, 0, 0);
 }
 
-article {
+.materia {
     background-color: rgb(28, 7, 104);
-    padding-left: 20px;
+    margin :20px;
+    padding: 30px;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-article a {
+.materia h1 {
+    margin-bottom: 20px;
+    font-size: 20;
+    color: #f2ff39;
+}
+.materia a {
+    text-align: center;
+    color: #ffffff;
+}
+
+.materia img {
+    width: 100%;
+}
+.botao {
+    background-color: #3b033bb6;
     color: rgb(251, 255, 0);
     text-decoration: none;
-    padding: 12px;
+    padding: 15px;
+    display: inline-block;
+    margin: 10px;
+
    
 }
 
 .rodape {
-    background-color: blue;
+    background-color: rgb(140, 0, 255);
     color: blanchedalmond;
     padding: 30px;
     margin: 10px;   
@@ -43,3 +74,32 @@ article a {
 padding: 30px;
 
  }
+ 
+.menu {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+.menu li {
+padding-right: 20px;
+    }
+
+.menu a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.navegacao {
+    display: flex;
+    list-style: none;
+}
+.titulo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.texto {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
