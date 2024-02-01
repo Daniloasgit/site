@@ -33,7 +33,7 @@ a {
     background-color: rgb(28, 7, 104);
     margin :20px;
     padding: 30px;
-    width: 800px;
+    width: 500px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -52,16 +52,6 @@ a {
 .materia img {
     width: 100%;
 }
-.botao {
-    background-color: #3b033bb6;
-    color: rgb(251, 255, 0);
-    text-decoration: none;
-    padding: 15px;
-    display: inline-block;
-    margin: 10px;
-
-   
-}
 
 .rodape {
     background-color: rgb(140, 0, 255);
@@ -69,6 +59,10 @@ a {
     padding: 30px;
     margin: 10px;   
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+
 }
  main {
 padding: 30px;
@@ -102,4 +96,24 @@ padding-right: 20px;
     text-align: center;
     margin-bottom: 20px;
     font-size: 28px;
+}
+
+.botao:hover {
+background-color: #da2929b6;
+}
+
+.botao {
+    background-color: #3b033bb6;
+    color: rgb(251, 255, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(600px, 1fr));
+    gap: 10px;
 }
