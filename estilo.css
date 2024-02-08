@@ -6,30 +6,20 @@
     body{
 background-color:  #804c80;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;color: aliceblue;
 font-size: 20px;
-font-family: times new roman
+font-family: times new roman;
 
 }
 .topo {
-    background-color:#4e388c ;
+    background-color: #0004ff;
     padding: 20px;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14px; 
-
-}
-
-.topo img {
-    width: 105%;
+    font-size: 30px; 
+  
 }
 
 .topo a {
     color: aqua;
     text-decoration: none;
     margin-bottom: 30px;
-
-   
-
 }
 
 a {
@@ -44,6 +34,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 320px;
+    
 }
 
 .materia h1 {
@@ -63,12 +54,9 @@ a {
 .rodape {
     background-color: rgb(140, 0, 255);
     color: blanchedalmond;
-    padding: 30px;
-    margin: 10px;   
+    padding: 30px;   
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
+    min-width: 320px;
 
 }
  main {
@@ -80,10 +68,15 @@ padding: 30px;
     display: flex;
     list-style: none;
     margin-left: auto;
+    background-color: #0004ff;
+    text-align: right;
+   
 }
 
 .menu li {
-padding-right: 20px;
+margin-left: 20px;
+text-align: right;
+
     }
 
 .menu a:hover {
@@ -93,6 +86,7 @@ padding-right: 20px;
 .navegacao {
     display: flex;
     list-style: none;
+   
 }
 .titulo {
     text-align: center;
@@ -124,7 +118,6 @@ background-color: #da2929b6;
 .grade {
     display: grid;
     gap: 15px;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
@@ -166,4 +159,14 @@ textarea.campo {
 .mapa{
     width: 100%;
     margin-top: 20px;
+}
+
+@media (min-width: 720px) {
+    .topo a {
+        font-size: 18px;
+    }
+}
+
+.materia h1 {
+    font-size: 30px;
 }
