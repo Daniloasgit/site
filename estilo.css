@@ -15,6 +15,7 @@ font-family: times new roman
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 14px; 
 
 }
 
@@ -39,10 +40,10 @@ a {
     background-color: rgb(28, 7, 104);
     margin :20px;
     padding: 30px;
-    width: 500px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    width: 320px;
 }
 
 .materia h1 {
@@ -122,8 +123,9 @@ background-color: #da2929b6;
 
 .grade {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(600px, 1fr));
-    gap: 10px;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
 .rotulo {
@@ -155,7 +157,7 @@ textarea.campo {
 .contato {
     background-color: #4117b6;
     padding: 30px;
-    width: 500px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
